@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbPersonalModelStoreContainer" CdmEntityContainer="DbPersonalEntities">
+    <EntitySetMapping Name="Tbl_Citys">
+      <EntityTypeMapping TypeName="DbPersonalModel.Tbl_Citys">
+        <MappingFragment StoreEntitySet="Tbl_Citys">
+          <ScalarProperty Name="Ctyİd" ColumnName="Ctyİd" />
+          <ScalarProperty Name="CtyName" ColumnName="CtyName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

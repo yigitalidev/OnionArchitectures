@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbPersonalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_Citys">
+    <Key>
+      <PropertyRef Name="Ctyİd" />
+    </Key>
+    <Property Name="Ctyİd" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CtyName" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DbPersonalEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_Citys" EntityType="Self.Tbl_Citys" />
+  </EntityContainer>
+</Schema>
